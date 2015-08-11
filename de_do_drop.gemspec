@@ -1,8 +1,8 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = 'DeDoDrop-generator'
-  s.version     = '1.0.1'
+  s.name        = 'DeDoDrop'
+  s.version     = '1.0.0'
   s.date        = '2015-09-10'
   s.summary     = "DeDoDrop is a gem to hande dependent drop downs."
   s.description = "DeDoDrop is a gem to hande dependent drop downs. It can only handle one dependency at the moment."

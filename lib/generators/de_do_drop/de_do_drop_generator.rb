@@ -1,7 +1,6 @@
 require 'rails/generators/base'
 class DeDoDropGenerator < Rails::Generators::Base
   source_root File.expand_path('../templates', __FILE__)
-  namespace 'dedodrop:install'
 
   def execute
     copy_partial
